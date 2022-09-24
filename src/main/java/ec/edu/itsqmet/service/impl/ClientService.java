@@ -6,8 +6,8 @@ import ec.edu.itsqmet.service.IClienteService;
 
 @Service
 public class ClientService implements IClienteService {
-	public String saludar() {
-		return "Hellow world";
+	public String getMetodo() {
+		return "soy un metodo get";
 	}
 
 	public String postMetodo() {

@@ -20,10 +20,10 @@ public class ClientController {
 	@Autowired
 	private IClienteService cs;
 
-	@GetMapping("/saludar")
-	public String saludar() {
+	@GetMapping("/getMetodo")
+	public String getMetodo() {
 
-		return cs.saludar();
+		return cs.getMetodo();
 	}
 
 	@PostMapping("/postClient")

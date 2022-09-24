@@ -2,7 +2,7 @@ package ec.edu.itsqmet.service;
 
 public interface IClienteService {
 
-	String saludar();
+	String getMetodo();
 	
 	String postMetodo();
 	
