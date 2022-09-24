@@ -10,7 +10,16 @@ public class ClientService implements IClienteService {
 		return "Hellow world";
 	}
 
-	public String nombre() {
-		return "Darwin";
+	public String postMetodo() {
+		return "Soy un metodo post";
 	}
+
+	public String putMetodo() {
+		return "Soy un metodo put";
+	}
+	
+	public String deleteMetodo() {
+		return "Soy un metodo delete";
+	}
+	
 }
